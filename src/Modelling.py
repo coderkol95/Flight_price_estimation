@@ -82,7 +82,7 @@ if __name__=='__main__':
     X=feats.transform(X)
     code=encoder.fit(X)
     X=code.transform(X)
-
+'''
     #4
     rf_space = {
             "max_depth": scope.int(hp.quniform('max_depth',1,50,1)),
@@ -100,18 +100,22 @@ if __name__=='__main__':
     result = fmin(
                 fn=score_hyperparams,
                 space=rf_space,
-                max_evals=50,
+                max_evals=10,
                 trials=trials,
                 algo=tpe.suggest
             ) 
+    print(result)
 
     #7
-    model = RandomForestRegressor(max_depth=int(result['max_depth']), max_features=result['max_features'], n_estimators=int(result['n_estimators']))
-    model.fit(X,y)
 
+    #model = RandomForestRegressor(max_depth=int(result['max_depth']), max_features=result['max_features'], n_estimators=int(result['n_estimators']))
+    model = RandomForestRegressor(max_depth=17, max_features=0.6807119650079912, n_estimators=192)
+
+    model.fit(X,y)
+'''
     with open(r'./bin/model.pkl','wb') as f3:
         pickle.dump(model,f3)
-'''
+
     #8
     with open(r'./bin/feats.pkl','wb') as f1:
         pickle.dump(feats,f1)
