@@ -1,0 +1,22 @@
+Airline,Source,Destination,Duration
+Air Asia,Bangalore,New Delhi,2h 45m
+Air Asia,Kolkata,Bangalore,2h 35m
+Air India,Bangalore,New Delhi,2h 45m
+Air India,Chennai,Kolkata,2h 15m
+Air India,Kolkata,Bangalore,2h 35m
+Air India,Mumbai,Hyderabad,1h 30m
+Air India,New Delhi,Cochin,3h 0m
+GoAir,Bangalore,New Delhi,2h 50m
+GoAir,Kolkata,Bangalore,2h 35m
+IndiGo,Bangalore,New Delhi,2h 50m
+IndiGo,Chennai,Kolkata,2h 20m
+IndiGo,Kolkata,Bangalore,2h 35m
+IndiGo,Mumbai,Hyderabad,1h 30m
+IndiGo,New Delhi,Cochin,3h 15m
+SpiceJet,Bangalore,New Delhi,2h 50m
+SpiceJet,Chennai,Kolkata,2h 20m
+SpiceJet,Kolkata,Bangalore,2h 25m
+SpiceJet,Mumbai,Hyderabad,1h 30m
+Vistara,Bangalore,New Delhi,2h 30m
+Vistara,Chennai,Kolkata,2h 15m
+Vistara,New Delhi,Cochin,3h 10m
