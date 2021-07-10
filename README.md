@@ -1,7 +1,7 @@
 
 # Business problem
 
-Travel agencies need to track and predict fluctuations in flight prices to provide competitive tour packages. In this project we try to build a model to estimate flight prices for direct flights in five routes. This can be expanded to include more routes after more data is scraped from travel websites.
+Travel agencies need to track and predict fluctuations in flight prices to provide competitive tour packages. In this project we try to build a model to estimate flight prices for direct flights. This can be expanded to include more routes after more data is scraped from travel websites.
 
 
 # Data preprocessing
