@@ -77,4 +77,4 @@ The model was deployed using Streamlit. The following details were captured:
 
 Depending on the source and airline, the available destinations were displayed. The input data was first transformed through the pipelines. Then the model was used to predict the price and the expected flight duration.
 
-Here is the app! : https://share.streamlit.io/coderkol95/flight_price/src/flight_app.py
+Here is the app! : https://share.streamlit.io/coderkol95/flight_price_estimation/src/flight_app.py
